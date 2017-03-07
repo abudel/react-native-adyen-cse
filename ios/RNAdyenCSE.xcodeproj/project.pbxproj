@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		2A78A4721E42001400919093 /* RNAdyenCSE.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A78A4711E42001400919093 /* RNAdyenCSE.m */; };
 		2A78A4731E42001400919093 /* RNAdyenCSE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A78A4701E42001400919093 /* RNAdyenCSE.h */; };
-		2A78A47A1E4201C500919093 /* libAdyenCSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A78A4791E4201C500919093 /* libAdyenCSE.a */; };
-		C7F21F2C7264905719F8DAC4 /* libPods-RNAdyenCSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD21DC46E4824951A28B811 /* libPods-RNAdyenCSE.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,7 +30,6 @@
 		2A78A4711E42001400919093 /* RNAdyenCSE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAdyenCSE.m; sourceTree = "<group>"; };
 		2A78A4791E4201C500919093 /* libAdyenCSE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdyenCSE.a; path = "../../../Library/Developer/Xcode/DerivedData/RNAdyenCSE-cjjjohtrhcgoijfodhpdjakzeimw/Build/Products/Debug-iphonesimulator/AdyenCSE/libAdyenCSE.a"; sourceTree = "<group>"; };
 		67D4D0BE5B06E704C56F0762 /* Pods-RNAdyenCSE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAdyenCSE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNAdyenCSE/Pods-RNAdyenCSE.debug.xcconfig"; sourceTree = "<group>"; };
-		7BD21DC46E4824951A28B811 /* libPods-RNAdyenCSE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAdyenCSE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D056E9FC2A08E9D52C86B1 /* Pods-RNAdyenCSE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAdyenCSE.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNAdyenCSE/Pods-RNAdyenCSE.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,8 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A78A47A1E4201C500919093 /* libAdyenCSE.a in Frameworks */,
-				C7F21F2C7264905719F8DAC4 /* libPods-RNAdyenCSE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				2A78A4791E4201C500919093 /* libAdyenCSE.a */,
-				7BD21DC46E4824951A28B811 /* libPods-RNAdyenCSE.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
