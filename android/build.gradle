@@ -10,9 +10,6 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
-        ndk {
-            abiFilters "armeabi-v7a", "x86"
-        }
     }
     lintOptions {
        warning 'InvalidPackage'
@@ -21,5 +18,11 @@ android {
 
 dependencies {
     compile 'com.facebook.react:react-native:0.20.+'
+    compile(name:'adyencse-1.0.0', ext:'aar')
 }
-  
+
+repositories{
+      flatDir{
+              dirs 'libs'
+       }
+ }

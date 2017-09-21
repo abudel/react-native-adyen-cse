@@ -1,16 +1,38 @@
-
 {
-  "name": "react-native-adyen-cse",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "git+https://github.com/abudel/react-native-adyen-cse.git",
+  "_id": "react-native-adyen-cse@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-OxZGex+Nw4TfdfODshBBu8utzaA=",
+  "_location": "/react-native-adyen-cse",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/abudel/react-native-adyen-cse.git",
+    "rawSpec": "https://github.com/abudel/react-native-adyen-cse.git",
+    "saveSpec": "git+https://github.com/abudel/react-native-adyen-cse.git",
+    "fetchSpec": "https://github.com/abudel/react-native-adyen-cse.git",
+    "gitCommittish": "master"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/abudel/react-native-adyen-cse.git#f7189932394446a692051969bb27de5df7df442d",
+  "_spec": "https://github.com/abudel/react-native-adyen-cse.git",
+  "_where": "/Users/andreabudel/Sites/furla-app",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Getting started",
   "keywords": [
     "react-native",
     "adyen"
   ],
-  "author": "",
-  "license": ""
+  "license": "",
+  "main": "index.js",
+  "name": "react-native-adyen-cse",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
